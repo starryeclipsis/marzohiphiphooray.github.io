@@ -1,11 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Hello World</title>
-  </head>
-  <body>
-    <h1>Hello World</h1>
-    <p>This is a web page.</p>
-  </body>
+<!DOCTYPE HTML>
+<link rel="stylesheet" href="styles.css">
+
+<html>
+<body>
+<h1 id = "test">ajhdasdsaasd</h1>
+    <script>
+
+    fetch('./materialsList.json')
+    .then(res => res.json())
+    .then(data => {
+        console.log(data);
+        
+    })
+</script>
+
+
+
+</body>
 </html>
+
+
